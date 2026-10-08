@@ -1,0 +1,24 @@
+body {
+    background-color: #000000;
+    background-image: url("../img/mohg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000;
+    -webkit-text-stroke-color: #FF0000;
+    -webkit-text-stroke-width: 1px;
+    font-size: 20pt;
+    text-align: center;
+    font-family: "Cormorant Garamond", "serif";
+}
+
+header {
+    background-color: none;
+    color: #FF0000;
+    text-align: center;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+    font-family: "EB Garamond", "serif";
+    font-size: 40pt;
+    font-weight: bold;
+}
