@@ -1,15 +1,12 @@
 body {
-    background-color: #000000;
-    background-image: url("../img/mohg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:-webkit-linear-gradient(bottom, #ffffff, #000000);
     color: #000000;
     -webkit-text-stroke-color: #FF0000;
     -webkit-text-stroke-width: 1px;
     font-size: 20pt;
     text-align: center;
     font-family: "Cormorant Garamond", "serif";
+
 }
 
 header {
@@ -21,4 +18,38 @@ header {
     font-family: "EB Garamond", "serif";
     font-size: 40pt;
     font-weight: bold;
+    text-shadow: 2px 2px #000000;
 }
+
+#lorian {
+    font-size: 35pt;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+#bob {
+    filter: hue-rotate(145deg);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 2px double #0000FF;
+    background-color: #000000;
+    width: 150px;
+}
+
+#hobbies {
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0px;
+    text-align: left;
+    background: #000000;
+    margin-right: 50%;
+    color: #FF0000
+    
+}
+
+#hobbies li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 10rem;
+}
+
+
