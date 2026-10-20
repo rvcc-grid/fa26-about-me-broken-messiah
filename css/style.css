@@ -11,7 +11,7 @@ header {
 }
 
 body {
-    background:-webkit-linear-gradient(bottom, #ffffff, #000000);
+    background: -webkit-linear-gradient(bottom, #ffffff, #000000);
     color: #000000;
     -webkit-text-stroke-color: #FF0000;
     -webkit-text-stroke-width: 1px;
@@ -31,7 +31,7 @@ body {
     position: absolute;
     left: 10px;
     top: 10px;
-    border: 2px double #0000FF;
+    border: 5px double #0000FF;
     background-color: #000000;
     width: 150px;
 }
@@ -39,17 +39,32 @@ body {
 #hobbies {
     -webkit-text-stroke-color: none;
     -webkit-text-stroke-width: 0px;
-    text-align: left;
-    background: #000000;
+    color: #FF0000;
     margin-right: 50%;
-    color: #FF0000
-    
+    margin-left: 15px;
 }
 
-#hobbies li {
-    list-style-type: none;
-    margin-bottom: 10px;
-    margin-right: 10rem;
+#gallery {
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0px;
+    color: #FF0000;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.flex-container {
+    display: flex;
+    gap: auto;
 }
 
+.hobbies-section .gallery-section {
+    flex: 1;
+    padding: 0px;
+}
+.hobbies-section {
+    text-align: left;
+}
 
+.gallery-section {
+    text-align: right;
+}
