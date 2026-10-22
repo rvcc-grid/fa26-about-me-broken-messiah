@@ -29,6 +29,7 @@ body {
 #bob {
     filter: hue-rotate(145deg);
     position: absolute;
+    display:flex;
     left: 10px;
     top: 10px;
     border: 5px double #0000FF;
@@ -67,4 +68,14 @@ body {
 
 .gallery-section {
     text-align: right;
+}
+
+#lit p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#me {
+    cursor: grab;
 }
