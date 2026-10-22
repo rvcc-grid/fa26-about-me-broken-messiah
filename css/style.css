@@ -72,8 +72,19 @@ body {
 
 #lit p {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    clear:both;
+}
+
+#lit p::first-letter {
+    font-size: 200%;
+    float: left;
+    border: 3px solid #FF0000;
+    padding: 0 10px;
+    background:-webkit-gradient(linear, left top, left bottom, from(#000000), to(#FF0000));
+    color: gold;
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0px;
+
 }
 
 #me {
