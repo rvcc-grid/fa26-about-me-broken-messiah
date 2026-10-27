@@ -58,7 +58,7 @@ body {
     gap: auto;
 }
 
-.hobbies-section .gallery-section {
+.hobbies-section, .gallery-section {
     flex: 1;
     padding: 0px;
 }
