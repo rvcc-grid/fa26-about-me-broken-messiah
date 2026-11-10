@@ -11,10 +11,14 @@ header {
 }
 
 body {
-    background: -webkit-linear-gradient(bottom, #ffffff, #000000);
-    color: #000000;
-    -webkit-text-stroke-color: #FF0000;
-    -webkit-text-stroke-width: 1px;
+    background: -webkit-linear-gradient(bottom, black, #000000);
+    background-image: url("../img/mohg.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    color: #FF0000;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: none;
     font-size: 20pt;
     text-align: center;
     font-family: "Cormorant Garamond", "serif";
@@ -23,11 +27,25 @@ body {
 
 #me {
     cursor: grab;
+    border-color: #FF0000;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20%;
+    background-color: black;
 }
 
 #lorian {
     font-size: 35pt;
-    -webkit-text-stroke-width: 1.5px;
+    font-weight: bold;
+    font-family: "EB Garamond", "serif";
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: .5px;
+    text-shadow: 1px 1px #000000;
+}
+
+#bio p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #bob {
@@ -79,7 +97,7 @@ body {
 }
 
 #gallery figcaption {
-    font-size: 12pt;
+    font-size: 12.5pt;
 }
 
 #gallery h2 {
@@ -95,10 +113,18 @@ body {
     width: 150px;
 }
 
+.flex-container hr {
+    border: 1px solid #FF0000;
+}
+
 /* Lit Section */
 #lit p {
-    text-align: center;
+    text-align: left;
     clear: both;
+}
+
+#lit hr {
+    border: 1px solid #FF0000;
 }
 
 #lit p::first-letter {
