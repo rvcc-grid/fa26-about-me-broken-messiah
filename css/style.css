@@ -26,6 +26,10 @@ body {
 
 }
 
+h2 {
+    text-shadow: 1px 1px #000000;
+}
+
 #me {
     cursor: grab;
     border-color: #FF0000;
@@ -50,6 +54,14 @@ body {
     text-shadow: 2px 2px #000000;
 }
 
+#bio {
+    background-color: black;
+    border: 2px solid #FF0000;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
 
 
 #bob {
@@ -63,77 +75,44 @@ body {
     width: 150px;
 }
 
-/* Hobbies and Gallery Section */
+/* Hobbies Section */
 #hobbies {
-    -webkit-text-stroke-color: none;
-    -webkit-text-stroke-width: 0px;
-    color: #FF0000;
-    margin-right: 50%;
-    margin-left: 15px;
+    background-color: black;
+    border: 2px solid #FF0000;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 #hobbies li {
     list-style-type: disc;
-}
-
-#bands li {
-    font-size: 12pt;
-}
-
-#gallery {
-    -webkit-text-stroke-color: none;
-    -webkit-text-stroke-width: 0px;
-    color: #FF0000;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 15px;
-
-}
-
-.flex-container {
-    display: flex;
-    gap: auto;
-}
-
-.hobbies-section,
-.gallery-section {
-    flex: 1;
-    padding: 5%;
-    background-color: black;
-    border-radius: 5%;
-    border: 2px solid #FF0000;
-}
-
-.hobbies-section {
     text-align: left;
 }
 
-.gallery-section {
-    text-align: right;
-}
-
-#gallery figcaption {
-    font-size: 12.5pt;
-}
-
-#gallery h2 {
-    text-align: right;
-    margin-right: 15px;
-}
-
-#guitar {
-    width: 150px;
-}
-
-#knicks {
-    width: 150px;
-}
-
-.flex-container hr {
+#hobbies hr {
     border: 1px solid #FF0000;
 }
 
+/*Gallery Section*/
+
+#gallery img {
+    width: 640px;
+    height: auto;
+}
+
+#gallery hr {
+    border: 1px solid #FF0000;
+}
+
+
 /* Lit Section */
+#lit {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
 #lit p {
     text-align: left;
     clear: both;
