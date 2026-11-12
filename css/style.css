@@ -11,11 +11,12 @@ header {
 }
 
 body {
-    background: -webkit-linear-gradient(bottom, black, #000000);
+    background-color: black;
     background-image: url("../img/mohg.jpg");
-    background-size: contain;
+    background-size: 50%;
     background-position: center;
     background-repeat: repeat;
+    background-blend-mode: none;
     color: #FF0000;
     -webkit-text-stroke-color: #000000;
     -webkit-text-stroke-width: none;
@@ -46,7 +47,10 @@ body {
 #bio p {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px #000000;
 }
+
+
 
 #bob {
     filter: hue-rotate(145deg);
@@ -68,6 +72,14 @@ body {
     margin-left: 15px;
 }
 
+#hobbies li {
+    list-style-type: disc;
+}
+
+#bands li {
+    font-size: 12pt;
+}
+
 #gallery {
     -webkit-text-stroke-color: none;
     -webkit-text-stroke-width: 0px;
@@ -75,6 +87,7 @@ body {
     text-align: right;
     margin-left: auto;
     margin-right: 15px;
+
 }
 
 .flex-container {
@@ -85,7 +98,10 @@ body {
 .hobbies-section,
 .gallery-section {
     flex: 1;
-    padding: 0px;
+    padding: 5%;
+    background-color: black;
+    border-radius: 5%;
+    border: 2px solid #FF0000;
 }
 
 .hobbies-section {
@@ -123,6 +139,13 @@ body {
     clear: both;
 }
 
+#lit div {
+    background-color: #000000;
+    border: 1px solid #ff0000;
+    padding: 3px;
+    border-radius: 3%;
+}
+
 #lit hr {
     border: 1px solid #FF0000;
 }
@@ -141,3 +164,5 @@ body {
     margin-bottom: 5px;
 
 }
+
+/*Footer*/
